@@ -1,0 +1,157 @@
+.workers {
+	display: flex;
+	height: 100%;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.flex-item {
+	flex: 1;
+}
+
+.list {
+	width: 350px;
+}
+
+.detail {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.workers-select {
+	max-width: 292px;
+}
+
+.input {
+	background-size: 18px 18px;
+	background-position: 10px 12px;
+	background-repeat: no-repeat;
+	width: 100%;
+	font-size: 1rem;
+	padding: 12px 20px 12px 40px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	background-color: #f8f8f8;
+	outline: none;
+	box-sizing: border-box;
+	background-image: url("./icons/search.svg");
+	color: var(--main-text-color);
+}
+
+.workers .detail-list {
+	flex: 1;
+	margin-top: 1rem;
+	overflow-y: scroll;
+	max-height: 500px;
+	border: 1px solid #ddd;
+}
+
+.worker,
+.supervisor {
+	margin: 12px;
+	box-sizing: border-box;
+	align-items: center;
+	cursor: pointer;
+}
+
+.worker .name,
+.supervisor .name {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.worker .icon,
+.supervisor .icon {
+	padding: 10px;
+	color: grey;
+	max-width: 50px;
+	text-align: center;
+	font-size: 2rem;
+}
+
+.worker .title,
+.supervisor .title {
+	font-size: 1.2rem;
+}
+
+.worker .subtitle,
+.supervisor .subtitle {
+	font-size: 0.8rem;
+	color: var(--main-text-color);
+}
+
+.vdivider {
+	position: relative;
+	border-right: 1px solid rgba(0, 0, 0, 0.15);
+	margin: auto 24px;
+	height: 80vh;
+}
+
+.divider {
+	position: relative;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+	margin: 24px auto;
+	width: 100%;
+}
+
+.detail .icon {
+	font-size: 3rem;
+}
+
+#bar {
+	height: 100%;
+}
+
+.assets {
+	padding-top: 1rem;
+	box-sizing: border-box;
+}
+
+.asset {
+	border: 1px solid #ddd;
+	padding: 16px;
+	font-size: 14px;
+	margin-right: 1rem;
+}
+
+.asset p {
+	color: var(--main-text-color);
+}
+
+.asset i {
+	padding: 8px;
+}
+
+.chart {
+	height: 100%;
+}
+
+.chart .assets {
+	padding-top: 0px;
+	padding-bottom: 1rem;
+}
+
+.chart .asset {
+	border: none;
+}
+
+.count {
+	text-align: center;
+	font-size: 2rem;
+}
+
+.logout {
+	cursor: pointer;
+}
+
+.logout p {
+	display: inline-block;
+}

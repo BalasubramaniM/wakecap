@@ -1,0 +1,53 @@
+nav {
+	width: 100%;
+	box-shadow: 0 2px 0 0 #f5f5f5;
+	display: flex;
+	padding: 2rem 2rem;
+	box-sizing: border-box;
+	align-items: center;
+	background-color: var(--main-bg-color);
+}
+
+nav .flex {
+	display: flex;
+	width: 100%;
+	max-width: 1366px;
+	margin: 0 auto;
+	align-items: center;
+}
+
+nav p {
+	padding: 3px;
+	max-width: 1344px;
+	margin: 0 auto;
+	font-size: 1.5rem;
+}
+
+nav .heading {
+	flex: 1;
+}
+
+.user {
+	display: flex;
+	align-items: center;
+}
+
+.user i {
+	font-size: 1rem;
+	padding: 10px 5px;
+}
+
+nav .subtitle {
+	font-size: 1rem;
+}
+
+nav p,
+nav i,
+nav .title,
+nav .subtitle {
+	color: #fff;
+}
+
+nav .separator {
+	font-size: 1rem;
+}
