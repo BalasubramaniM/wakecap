@@ -46,10 +46,6 @@ npm start
 
 Open [localhost:3000](http://localhost:3000) file in your browser and see how WakeCap app works.
 
-## Demo
-
-Preview of the application can be found at [balsu.me/wakecap](http://balsu.me/wakecap).
-
 ## Authors
 
 - **Balasubramani M** - _Initial work_ - [Balasubramani M](https://github.com/balasubramanim)
