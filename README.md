@@ -48,7 +48,7 @@ Open [localhost:3000](http://localhost:3000) file in your browser and see how Wa
 
 ## Demo
 
-Preview of the application can be found at [balsu.me/peerlyst](http://balsu.me/wakecap).
+Preview of the application can be found at [balsu.me/wakecap](http://balsu.me/wakecap).
 
 ## Authors
 
